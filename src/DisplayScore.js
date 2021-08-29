@@ -4,7 +4,7 @@ import './DisplayScore.css';
 function DisplayScore(props) {
     return (
         <div className="App-header">
-            <p style={{margin: "1em"}} className="white">
+            <p style={{margin: "1em"}} className="App-white">
             Score: {props.user}-{props.computer}</p>
         </div>
     )

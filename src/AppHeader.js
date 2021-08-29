@@ -4,8 +4,8 @@ import './AppHeader.css';
 
 function AppHeader() {
     return (
-        <div className="App-header">
-            <p style={{margin: "0.5em"}} className="App-header-text">
+        <div className="AppHeader">
+            <p style={{margin: "0.5em"}} className="AppHeader-text">
             <img src={logo} className="App-logo" alt="logo" />
             Rock Paper Scissors
             </p>

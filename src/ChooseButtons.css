@@ -1,13 +1,4 @@
-.text {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.Buttons {
+.ChooseButtons {
     margin: 15px;
     text-align: center;
     display: flex;
@@ -16,28 +7,13 @@
     flex-wrap: wrap;
 }
 
-.break {
-    flex-basis: 100%;
-    height: 0;
-}
-
-.white {
-    color: #FFFFFF;
-}
-
-.Choice-button:hover {
+.ChooseButtons-ChoiceButton:hover {
     animation-name: hover-color;
     animation-duration: 400ms;
     animation-fill-mode: forwards;
 }
 
-@keyframes hover-color {
-    100% {
-        background-color: #b5efff
-    }
-}
-
-.Choice-button {
+.ChooseButtons-ChoiceButton {
     margin: 5px;
     margin-top: 20px;
     display: flex;

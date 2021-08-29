@@ -3,20 +3,20 @@ import './ChooseButtons.css';
 
 function ChooseButtons(props) {
     return (
-        <div className="Buttons">
-            <p className="white text">Rock, Paper, Scissors!</p>
-            <div className="break"/>
-            <button className="Choice-button text" 
+        <div className="ChooseButtons">
+            <p className="App-white App-text">Rock, Paper, Scissors!</p>
+            <div className="App-break"/>
+            <button className="ChooseButtons-ChoiceButton App-text" 
             onClick={props.chooseRock}> 
             Rock! </button>
-            <button className="Choice-button text" 
+            <button className="ChooseButtons-ChoiceButton App-text" 
             onClick={props.choosePaper}> 
             Paper! </button>
-            <button className="Choice-button text" 
+            <button className="ChooseButtons-ChoiceButton App-text" 
             onClick={props.chooseScissors}> 
             Scissors! </button>
-            <div className="break"/>
-            <p className="white">Your choice: {props.choice}</p>
+            <div className="App-break"/>
+            <p className="App-white">Your choice: {props.choice}</p>
             <div style={{flexBasis: "100%", height: "8vmin"}}/>
         </div>
     )

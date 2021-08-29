@@ -3,6 +3,7 @@ import './App.css';
 import AppHeader from './AppHeader.js';
 import DisplayScore from './DisplayScore.js';
 import ChooseButtons from './ChooseButtons.js';
+import Fight from './Fight.js';
 
 function App() {
   const [user, setUser] = useState(0);
@@ -61,6 +62,13 @@ function App() {
       choosePaper={choosePaper}
       chooseScissors={chooseScissors}
       />
+      {userChoice !== 'None' &&
+      <Fight 
+      compChoice={compChoice}
+      results={results}
+      updateFight={updateFight}
+      restart={restart}
+      />}
     </div>
   );
 }
