@@ -1,7 +1,7 @@
 # RPSReact
 
 This is a simple rock paper scissors game built with React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br/>
-Try out the game at https://rpsreact.web.app/!
+Try out the game at [rpsreact.web.app](https://rpsreact.web.app/)!
 
 ## What's next for RPSReact
 * Replace buttons with icons
