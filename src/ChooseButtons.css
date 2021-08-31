@@ -14,16 +14,17 @@
 }
 
 .ChooseButtons-ChoiceButton {
-    margin: 5px;
-    margin-top: 20px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     display: flex;
-    font-size: calc(6px + 1vmin);
+    font-size: calc(6px + 1.25vmin);
     align-items: center;
     justify-content: center;
     background-color: #61dafb;
     color: #282c34;
-    width: calc(40px + 10vmin);
-    height: calc(20px + 1vmin);
+    width: calc(40px + 12vmin);
+    height: calc(20px + 2vmin);
     border-width: 0px;
     border-radius: 2px;
 }
